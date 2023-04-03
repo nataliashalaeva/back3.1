@@ -165,4 +165,10 @@ $stmt->execute();
 // Если ошибок при этом не видно, то необходимо настроить параметр display_errors для PHP.
 header('Location: ?save=1');
 ?>
-
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<title>Web-3</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+</html>
