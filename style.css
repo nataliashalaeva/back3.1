@@ -1,0 +1,14 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	color: darkolivegreen;
+	max-width: 700px;
+	background-color: darkseagreen;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.body{
+	background-color: aliceblue;
+}:
