@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<head>
-<meta charset="utf-8" />
-<title>Web-3</title>
-<link rel="stylesheet" href="style.css" type="text/css"/>
-</head>
-</html>
+
 <form action="" method="POST">
 <p> Форма </p>
 <p> Напишите имя, год и email. <br>
@@ -55,4 +49,4 @@ C контрактом ознакомлен.
 
 </p>
 </form>
-  </html>
+ 
