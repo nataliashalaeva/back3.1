@@ -2,7 +2,7 @@
 <head>
 <meta charset="utf-8" />
 <title>Web-3</title>
-<link rel="stylesheet" href="style3.css" type="text/css"/>
+<link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 </html>
 <form action="" method="POST">
