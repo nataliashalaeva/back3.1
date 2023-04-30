@@ -81,14 +81,7 @@ $user = 'u52809';
 $pass = '3437720';
 $db = new PDO('mysql:host=localhost;dbname=u52809', $user, $pass, [PDO::ATTR_PERSISTENT => true]);
 
-try{
-$stmt = $db->prepare("REPLACE INTO abilities (id,name_of_ability) VALUES (10, 'Бессмертие'), (20, 'Прохождение сквозь стены'), (30, 'Левитация')");
-$stmt-> execute();
-}
-catch (PDOException $e) {
-print('Error : ' . $e->getMessage());
-exit();
-}
+
 // Подготовленный запрос. Не именованные метки.
 try {
 $stmt = $db->prepare("INSERT INTO form SET name = ?, year = ?, email = ?, pol = ?, limbs = ?, bio = ?");
@@ -123,7 +116,7 @@ else if ($ability=='b')
 else if ($ability=='c')
 {$stmt -> execute([$id, 30]);}
 else if ($ability=='p')
-{$stmt -> execute([$id, 30]);}
+{$stmt -> execute([$id, 40]);}
 }
 }
 catch(PDOException $e) {
